@@ -154,3 +154,30 @@ $option-level-border-color: #E8E8E8;
 		line-height: 30px;
 	}
 }
+
+@media (min-width: 767px) {
+	.options {
+		overflow: hidden;
+	}
+
+	.option-personal {
+		width: 33.3%;
+		float: left;
+		border-left: 10px solid white;
+		border-right: 10px solid white;
+	}
+
+	.option-small-business {
+		width: 33.3%;
+		float: left;
+		border-left: 10px solid white;
+		border-right: 10px solid white;
+	}
+
+	.option-enterprise {
+		width: 33.3%;
+		float: left;
+		border-left: 10px solid white;
+		border-right: 10px solid white;
+	}
+}
