@@ -132,7 +132,6 @@ $option-level-border-color: #E8E8E8;
 	color: $secondary-font-color;
 	background: black;
 	text-align: center;
-	height: 100px;
 	padding: 10px 45px;
 	line-height: 24px;
 
@@ -192,6 +191,7 @@ $option-level-border-color: #E8E8E8;
 		float: left;
 		border-left: 10px solid white;
 		border-right: 10px solid white;
+		padding: 0 20px;
 	}
 
 	.feature-pay-schedule {
@@ -199,6 +199,7 @@ $option-level-border-color: #E8E8E8;
 		float: left;
 		border-left: 10px solid white;
 		border-right: 10px solid white;
+		padding: 0 20px;
 	}
 
 	.feature-support {
@@ -206,6 +207,7 @@ $option-level-border-color: #E8E8E8;
 		float: left;
 		border-left: 10px solid white;
 		border-right: 10px solid white;
+		padding: 0 20px;
 	}
 
 	.feature-cancel {
@@ -213,6 +215,7 @@ $option-level-border-color: #E8E8E8;
 		float: left;
 		border-left: 10px solid white;
 		border-right: 10px solid white;
+		padding: 0 20px;
 	}
 }
 
