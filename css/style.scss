@@ -156,6 +156,7 @@ $option-level-border-color: #E8E8E8;
 }
 
 @media (min-width: 767px) {
+	
 	.options {
 		overflow: hidden;
 	}
@@ -213,8 +214,19 @@ $option-level-border-color: #E8E8E8;
 		border-left: 10px solid white;
 		border-right: 10px solid white;
 	}
+}
 
-	.footer {
-		text-align: center;
+@media (min-width: 979px) {
+	
+	.options {
+		max-width: 980px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.features {
+		max-width: 980px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
