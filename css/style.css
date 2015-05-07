@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box; }
+
+.nav {
+  height: 45px; }
+
+.nav-links {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0; }
+
+.nav-links li, .nav-links a {
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+  margin: 0 10px;
+  color: #484E55; }
+
+.banner {
+  height: 200px;
+  background: green url(../images/background.jpg);
+  background: cover;
+  padding: 60px 0;
+  margin-bottom: 50px; }
+
+.headline, .sub-headline {
+  padding: 10px 0;
+  margin: 0;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 16px;
+  color: white;
+  font-weight: normal; }
+
+.option-banner {
+  height: 220px; }
+
+.option-level {
+  height: 45px;
+  background: #EAEAEA;
+  text-align: center;
+  border: 1px solid #DBDBDB;
+  line-height: 45px;
+  color: #484E55; }
+
+.option-button-container {
+  height: 85px;
+  text-align: center;
+  border: 1px solid #DBDBDB;
+  margin-bottom: 35px; }
+
+.choose-button {
+  border: 1px solid #DBDBDB;
+  border-radius: 2em;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 7px;
+  width: 90px;
+  text-align: center;
+  margin: 25px auto; }
+
+.choose-button a {
+  text-decoration: none;
+  color: black; }
+
+.option-personal-banner {
+  background: #40843D; }
+
+.option-small-business-banner {
+  background: #203370; }
+
+.option-enterprise-banner {
+  background: black; }
+
+.features {
+  padding: 0 40px;
+  margin: 115px 0 0 0; }
+
+.features h3 {
+  margin: 60px 0 0 0; }
+
+.features p {
+  color: #484E55;
+  padding: 3px;
+  line-height: 24px; }
+
+.footer {
+  color: white;
+  background: black;
+  text-align: center; }
+
+.footer a {
+  color: white; }
