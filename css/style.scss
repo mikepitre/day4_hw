@@ -1,5 +1,8 @@
-$secondary-font-color: #484E55;
-$option-level-border-color: #DBDBDB;
+$main-banner-font-color: white;
+$option-banner-font-color: white;
+$option-banner-per-month-color: #aaa;
+$secondary-font-color: #556268;
+$option-level-border-color: #E8E8E8;
 
 
 * {
@@ -19,7 +22,7 @@ $option-level-border-color: #DBDBDB;
 		text-decoration: none;
 		display: inline-block;
 		float: left;
-		margin: 0 10px;
+		margin: 0 9px;
 		color: $secondary-font-color;
 	}
 }
@@ -39,17 +42,36 @@ $option-level-border-color: #DBDBDB;
 	font-size: 2em;
 	font-weight: bold;
 	line-height: 16px;
-	color: white;
+	color: $main-banner-font-color;
 	font-weight: normal;
+	text-shadow: 1px 1px 1px black;
 }
 
 .option-banner {
 	height: 220px;
+	text-align: center;
+	padding: 25px; 
 }
 
-.option-level {
+.option-banner-level {
+	font-size: 16px;
+	letter-spacing: .2em;
+	color: $option-banner-font-color;
+}
+
+.option-banner-price {
+	font-size: 100px;
+	color: $option-banner-font-color;
+}
+
+.option-banner-per-month {
+	font-size: 18px;
+	color: $option-banner-per-month-color;
+}
+
+.option-perk {
 	height: 45px;
-	background: #EAEAEA;
+	background: #F7F7F7;
 	text-align: center;
 	border: 1px solid $option-level-border-color;
 	line-height: 45px;
@@ -94,8 +116,10 @@ $option-level-border-color: #DBDBDB;
 .features {
 	padding: 0 40px;
 	margin: 115px 0 0 0;
+	font-weight: normal;
 	h3 {
 		margin: 60px 0 0 0;
+		letter-spacing: .3em;
 	}
 	p {
 		color: $secondary-font-color;
@@ -105,11 +129,14 @@ $option-level-border-color: #DBDBDB;
 }
 
 .footer {
-	color: white;
+	color: $secondary-font-color;
 	background: black;
 	text-align: center;
+	height: 100px;
+	padding: 10px 0;
+	line-height: 10px;
 
 	a {
-		color: white;
+		color: #E3E3E3;
 	}
 }
