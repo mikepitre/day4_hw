@@ -125,17 +125,7 @@
 @media (min-width: 767px) {
   .options {
     overflow: hidden; }
-  .option-personal {
-    width: 33.3%;
-    float: left;
-    border-left: 10px solid white;
-    border-right: 10px solid white; }
-  .option-small-business {
-    width: 33.3%;
-    float: left;
-    border-left: 10px solid white;
-    border-right: 10px solid white; }
-  .option-enterprise {
+  .option-personal, .option-small-business, .option-enterprise {
     width: 33.3%;
     float: left;
     border-left: 10px solid white;
@@ -143,25 +133,7 @@
   .features {
     overflow: hidden;
     margin-top: 0; }
-  .feature-get-started {
-    width: 50%;
-    float: left;
-    border-left: 10px solid white;
-    border-right: 10px solid white;
-    padding: 0 20px; }
-  .feature-pay-schedule {
-    width: 50%;
-    float: left;
-    border-left: 10px solid white;
-    border-right: 10px solid white;
-    padding: 0 20px; }
-  .feature-support {
-    width: 50%;
-    float: left;
-    border-left: 10px solid white;
-    border-right: 10px solid white;
-    padding: 0 20px; }
-  .feature-cancel {
+  .feature-get-started, .feature-pay-schedule, .feature-support, .feature-cancel {
     width: 50%;
     float: left;
     border-left: 10px solid white;
@@ -169,11 +141,7 @@
     padding: 0 20px; } }
 
 @media (min-width: 979px) {
-  .options {
-    max-width: 980px;
-    margin-left: auto;
-    margin-right: auto; }
-  .features {
+  .options, .features {
     max-width: 980px;
     margin-left: auto;
     margin-right: auto; } }
