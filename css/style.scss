@@ -9,21 +9,16 @@ $option-level-border-color: #E8E8E8;
 	box-sizing: border-box;
 }
 
-.nav {
-	height: 45px;
-}
+nav {
+	overflow: hidden;
 
-.nav-links {
-	display: inline-block;
-	text-decoration: none;
-	padding: 0;
-		
-	li, a {
+	a {
 		text-decoration: none;
 		display: inline-block;
 		float: left;
-		margin: 0 9px;
+		padding: 0 11px;
 		color: $secondary-font-color;
+		line-height: 45px;
 	}
 }
 
@@ -47,10 +42,14 @@ $option-level-border-color: #E8E8E8;
 	text-shadow: 1px 1px 1px black;
 }
 
+.options {
+	margin: 0 10px;
+}
+
 .option-banner {
 	height: 220px;
 	text-align: center;
-	padding: 25px; 
+	padding: 25px;
 }
 
 .option-banner-level {
@@ -160,11 +159,18 @@ $option-level-border-color: #E8E8E8;
 		overflow: hidden;
 	}
 
-	.option-personal, .option-small-business, .option-enterprise {
+	.option-small-business {
 		width: 33.3%;
 		float: left;
-		border-left: 10px solid white;
-		border-right: 10px solid white;
+		border-left: 20px solid white;
+		border-right: 20px solid white;
+	}
+
+	.option-personal, .option-enterprise {
+		width: 33.3%;
+		float: left;
+		border-left: 0px solid white;
+		border-right: 0px solid white;
 	}
 
 	.features {

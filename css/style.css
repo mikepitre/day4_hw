@@ -1,20 +1,16 @@
 * {
   box-sizing: border-box; }
 
-.nav {
-  height: 45px; }
+nav {
+  overflow: hidden; }
 
-.nav-links {
-  display: inline-block;
-  text-decoration: none;
-  padding: 0; }
-
-.nav-links li, .nav-links a {
+nav a {
   text-decoration: none;
   display: inline-block;
   float: left;
-  margin: 0 9px;
-  color: #556268; }
+  padding: 0 11px;
+  color: #556268;
+  line-height: 45px; }
 
 .banner {
   height: 200px;
@@ -33,6 +29,9 @@
   color: white;
   font-weight: normal;
   text-shadow: 1px 1px 1px black; }
+
+.options {
+  margin: 0 10px; }
 
 .option-banner {
   height: 220px;
@@ -125,11 +124,16 @@
 @media (min-width: 767px) {
   .options {
     overflow: hidden; }
-  .option-personal, .option-small-business, .option-enterprise {
+  .option-small-business {
     width: 33.3%;
     float: left;
-    border-left: 10px solid white;
-    border-right: 10px solid white; }
+    border-left: 20px solid white;
+    border-right: 20px solid white; }
+  .option-personal, .option-enterprise {
+    width: 33.3%;
+    float: left;
+    border-left: 0px solid white;
+    border-right: 0px solid white; }
   .features {
     overflow: hidden;
     margin-top: 0; }
