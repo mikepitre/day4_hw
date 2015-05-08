@@ -123,7 +123,8 @@ footer a {
 
 @media (min-width: 767px) {
   .options {
-    overflow: hidden; }
+    overflow: hidden;
+    margin: 0; }
   .option-personal, .option-small-business, .option-enterprise {
     width: 33.3%;
     float: left;
