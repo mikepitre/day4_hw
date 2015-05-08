@@ -124,16 +124,11 @@ nav a {
 @media (min-width: 767px) {
   .options {
     overflow: hidden; }
-  .option-small-business {
+  .option-personal, .option-small-business, .option-enterprise {
     width: 33.3%;
     float: left;
-    border-left: 20px solid white;
-    border-right: 20px solid white; }
-  .option-personal, .option-enterprise {
-    width: 33.3%;
-    float: left;
-    border-left: 0px solid white;
-    border-right: 0px solid white; }
+    border-left: 10px solid white;
+    border-right: 10px solid white; }
   .features {
     overflow: hidden;
     margin-top: 0; }
